@@ -53,7 +53,10 @@
 # a = int(input('Введите размер первой стороны шоколадки: '))
 # b = int(input('Введите размер второй стороны шоколадки: '))
 # c = int(input('введитесколько долек нужно отломить: '))
-# if c % a == 0 or c % b == 0:
-#     print(a, b, c, '-> yes')
+# if c <= a*b:
+#     if c % a == 0 or c % b == 0:
+#         print(a, b, c, '-> yes')
+#     else:
+#         print(a, b, c, "-> no")  
 # else:
-#     print(a, b, c, "-> no")    
+#     print(a, b, c, "-> no")  
