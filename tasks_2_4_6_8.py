@@ -5,7 +5,7 @@
 # a = int(input('Введите трехзначное число: '))
 # summa = 0
 # if 100 <= a <= 999:
-#     summa = int(a % 10) + int((a %100) / 10) + int(a /100)
+#     summa = int(a % 10 + a %100 // 10 + a // 100)
 #     print (summa)
 # else:
 #     print('вы ввели не трехзначное число') 
@@ -37,8 +37,8 @@
 # else:
 #     part1 = int(ticket) / 1000
 #     part2 = int(ticket) % 1000
-#     summa1 = int(part1 % 10) + int((part1 %100) / 10) + int(part1 /100)
-#     summa2 = int(part2 % 10) + int((part2 %100) / 10) + int(part2 /100)
+#     summa1 = int(part1 % 10 + (part1 %100) // 10 + part1 //100)
+#     summa2 = int(part2 % 10 + (part2 %100) // 10 + part2 //100)
 #     if summa1 == summa2:
 #         print('Yes')
 #     else:
